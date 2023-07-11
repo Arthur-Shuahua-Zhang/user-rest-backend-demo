@@ -10,7 +10,7 @@ import java.util.*;
 public class UserController {
     List<User> users = new ArrayList<>();
     {
-        users.add(new User(1, "Lauren", "Qie", "test@example.com"));
+        users.add(new User(1, "Alex", "Wu", "test@example.com"));
     }
 
     @GetMapping
